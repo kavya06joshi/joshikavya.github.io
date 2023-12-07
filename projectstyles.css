@@ -1,0 +1,87 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9; /* Updated background color */
+}
+
+header {
+  background: linear-gradient(to right, #00FF66, white, #0099CC);
+  padding: 1em;
+  text-align: center;
+  word-spacing: 20px;
+  position: relative;
+  border-radius: 10px;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+header p {
+  font-family: Californian FB;
+  font-size: 3em;
+  font-weight: 800;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.5;
+  letter-spacing: 15px; /* Adjust the letter spacing value */
+}
+
+#projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 2em;
+}
+
+.project {
+  width: 300px;
+  margin: 1em;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+  background-color: #fff; /* Updated background color */
+}
+
+.project:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.project-details {
+  padding: 1em;
+}
+
+.project-details h2 {
+  color: #333;
+  margin-bottom: 0.5em;
+}
+
+.project-details p {
+  color: #666;
+  font-size: 0.9em;
+  line-height: 1.4;
+}
+
+.project-links a {
+  display: block;
+  margin-top: 1em;
+  padding: 0.5em;
+  background-color: #4CAF50; /* Updated background color */
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.project-links a:hover {
+  background-color: #45a049; /* Slightly darker background on hover */
+}

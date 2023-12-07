@@ -1,0 +1,144 @@
+
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        header {
+        font-size: 3em;
+        letter-spacing: 10px;
+        padding: 3px;
+        margin: 3px;
+        
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-top: 20px;
+            letter-spacing: 3px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        nav {
+            color: white;
+            padding: none;
+            text-align: center;
+        }
+
+        nav {
+         background-color: black;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            padding: 15px 0;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #ecf0f1;
+            font-weight: bold;
+            font-size: 16px;
+            margin: 0 15px;
+            padding: 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            transform: scale(1.1);
+            background-color: #34495e;
+            color: #3498db;
+            
+        }
+
+        .hero-content {
+        padding: 50px 0;
+        text-align: center;
+        }
+
+       .hero-content {
+        display: inline-block;
+        max-width: 300px;
+        padding: 20px;
+        border-radius: 10px;
+        background-color: #ecf0f1; /* Light background color */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
+        margin: 0 15px;
+        transition: transform 0.3s ease-in-out;
+        }
+
+        .hero-content:hover {
+            transform: translateY(-5px); /* Add a slight lift effect on hover */
+        }
+
+        .hero-content img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin-bottom: 15px;
+        }
+
+        .hero-content p {
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 15px;
+            color: #333; /* Adjust text color */
+        }
+
+        .hero-content cite {
+            font-style: italic;
+            color: #777; /* Lighter color for the client's name */
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .projects {
+            padding: 3em 0;
+        }
+
+        .experience {
+            background-color: #fff;
+            padding: 3em 0;
+        }
+
+        .about {
+            padding: 3em 0;
+        }
+
+        .contact {
+            background-color: #fff;
+            padding: 3em 0;
+        }
+
+        footer {
+            background-color: #222;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        .social-links a {
+            color: white;
+            margin: 0 10px;
+        }
+    
